@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.detial {
+  font-size: 16px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  background-color: gray;
+  text-align: center;
+}
+.item {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+.country-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.country-border {
+  flex: 1;
+  overflow: auto;
+  position: relative;
+}
+.char-list-border {
+  padding-top: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.char-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+}
+.char-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.char-tip {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: gray;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#app {
+  height: 100%;
+  font-size: 14px;
+}
+
+[data-reactroot] {
+  height: 100%;
+}
