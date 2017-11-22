@@ -73,7 +73,8 @@ module.exports = {
       filename: 'index.html', //生成的html存放路径，相对于 path
       template: 'index.html', //html模板路径
       inject: true,
-      hash: false
+      hash: false,
+      title: 'react app'
     }),
     new webpack.HotModuleReplacementPlugin()
   ]
