@@ -4,7 +4,7 @@
 
 查看效果图：
 
-![1.gif](1.gif)
+![1.gif](https://github.com/keenjaan/alphabetical-index-navigation/blob/master/shot/1.gif)
 
 **本项目的webpack配置不是实际项目中的配置，只是方便查看效果而建的简单的项目**
 
