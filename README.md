@@ -20,4 +20,4 @@ npm run vue
 npm run react
 ~~~
 
-关于代码解析请移步[博客]()
+关于代码解析请移步[博客](http://www.jianshu.com/p/fa173a1cd47b)
